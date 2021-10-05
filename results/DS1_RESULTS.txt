@@ -1,0 +1,35 @@
+COOPERATIVE BISECTING K-MEANS (k = 3)
+-----------------------------------
+F-measure: mean 0.9988, std 0.0
+Entropy: mean 0.0074, std 0.0
+Purity: mean 0.9988, std 0.0
+Normalized Mutual Information: mean 0.9926, std 0.0
+Separation Index: mean 0.0371, std 0.0
+Execution Time: mean 171.5113, std 0.3559
+
+K-MEANS (k = 3)
+-----------------------------------
+F-measure: mean 0.9988, std 0.0 | t = 0.0, H0: Accepted
+Entropy: mean 0.0074, std 0.0 | t = 0.0, H0: Accepted
+Purity: mean 0.9988, std 0.0 | t = 0.0, H0: Accepted
+Normalized Mutual Information: mean 0.9926, std 0.0 | t = nan, H0: Accepted
+Separation Index: mean 0.0371, std 0.0 | t = 0.0, H0: Accepted
+Execution Time: mean 9.3774, std 0.0181 | t = 1365.0151, H0: Rejected
+
+BISECTING K-MEANS (k = 3)
+-----------------------------------
+F-measure: mean 0.9988, std 0.0 | t = 0.0, H0: Accepted
+Entropy: mean 0.0074, std 0.0 | t = 0.0, H0: Accepted
+Purity: mean 0.9988, std 0.0 | t = 0.0, H0: Accepted
+Normalized Mutual Information: mean 0.9926, std 0.0 | t = nan, H0: Accepted
+Separation Index: mean 0.0371, std 0.0 | t = 0.0, H0: Accepted
+Execution Time: mean 9.4313, std 0.0245 | t = 1363.1066, H0: Rejected
+
+AGGLOMERATIVE SINGLE LINK (k = 3)
+-----------------------------------
+F-measure: 0.7778
+Entropy: 0.4193
+Purity: 0.6683
+Normalized Mutual Information: 0.7313
+Separation Index: 0.4867
+Execution Time: 0.109
