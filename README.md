@@ -1,6 +1,6 @@
 # Cooperative Bisecting K-Means (CBKM) Algorithm Implementation
 
-Cooperative Bisecting K-Means is presented in [1] as an algorithm based on the principles of Bisecting K-Means, including the idea of splitting clusters at each level of a generated hierarchical tree (from l=2...k ). However, it includes the notion of intermediate cooperation between KM and BKM. Speci cally, by using cooperative contingency and cooperative merging matrices at each level, resulting from the intersections of KM and BKM and the subclusters merging cohesiveness factors, respectively, CBKM eventually obtains better clustering results than the ones provided by both methods separately.
+Cooperative Bisecting K-Means is presented in [1] as an algorithm based on the principles of Bisecting K-Means, including the idea of splitting clusters at each level of a generated hierarchical tree (from l=2...k ). However, it includes the notion of intermediate cooperation between KM and BKM. Specifically, by using cooperative contingency and cooperative merging matrices at each level, resulting from the intersections of KM and BKM and the subclusters merging cohesiveness factors, respectively, CBKM eventually obtains better clustering results than the ones provided by both methods separately.
 
 The aim of this project is to understand, summarize, implement, reproduce and test this algorithm with different artifcial and real datasets.
 
