@@ -12,11 +12,17 @@ This project has been developed using Python v3.6 as programming language and Py
 and run "main.py". You will be greeted with a menu that will provide you the opportunity of selecting between several options:
 
 • "1": Processing DS1 dataset.
+
 • "2": Processing DS2 dataset.
+
 • "3": Processing Heart-C dataset.
+
 • "4": Processing Breast Cancer dataset.
+
 • "5": Processing CMC dataset.
+
 • "6": Process another dataset.
+
 • "7": Exit.
 
 Before anything else, note that the PyCharm project is composed by five .py  les and two folders: "datasets" and "results". In order for the adjusted execution to work properly, the dataset files should be located inside a folder called "datasets" within the root path. The folder called "results" should also exist previously to running.
